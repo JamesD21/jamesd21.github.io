@@ -7,16 +7,17 @@ html {
 /*Header*/ 
 .logo {
 
-    font-size: 40px;
+    font-size: 50px;
     text-align:center; 
     font-weight: bold; 
     color: #faefdf;
-
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*Content divider - main structure*/ 
 
 body { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     box-shadow: 0 0 2px rgba(0,0,0,0.06); 
     font-size: 16px;
     line-height: 1.5;
@@ -28,33 +29,59 @@ body {
    
 } 
 
+h1, h2, h3, h4, h5, h6 {
+    color: #faefdf;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
 /*Content*/
 
 .projectList { 
-
-text-align: center;
-padding-top: 10px;
-font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-top: 2.5px;
+    max-width: 210px;
 
 }
 
+
+.projectDescription { 
+    float: right;
+    max-width: 400px;
+    list-style: none;
+    position:relative;
+
+}
+.projectDescription li { 
+    list-style: none;
+
+}
+
+
 a { 
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
-    color: #faefdf;
+    color:#faefdf;
 }
 
 
 li { 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    list-style:decimal;  
+    font-size: 20px; 
+    
+}
 
-    padding: 100px 10px 10px;
-    list-style:  none; 
+li p { 
+    font-size: 20px;
+    text-align: left;
 }
 
 
 .projectList li:hover {
-    color: #092134;  
-    background-color:#faefdf ;
+    background-color:green ;
     
     
 }
