@@ -52,3 +52,10 @@ li {
 }
 
 
+.projectList li:hover {
+    color: #092134;  
+    background-color:#faefdf ;
+    
+    
+}
+
