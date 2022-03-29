@@ -1,56 +1,42 @@
 /*General*/
 html { 
-
-    background-color: #222734;
     background-color: #d89456;
 }
 
 /*Header*/ 
-
-
-.logo { 
-
-    width: 100%;
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-}
-
-.logo img{ 
-
-    height: 300px;
-    width: 300px;
+.introduction img {
+    height: 180px;
+    width: 180px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
     border-radius: 50%;
-    border-style:solid; 
 }
 
 .title {
 
     font-size: 50px;
     text-align:center; 
-    color: #faefdf;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Smooch Sans', sans-serif;
-    text-transform: uppercase;
-}
+    color: #491200;
+    font-family: 'DM Serif Display', serif;}
 
 /*Content divider - main structure*/ 
 
 body { 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     box-shadow: 0 0 2px rgba(0,0,0,0.06); 
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto; 
     max-width: 700px;
     padding: 2em 2em 4em;
-    color: white;
+    color: black;
     
    
 } 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #faefdf;
+    color: #491200;
     font-weight: 600;
     line-height: 1.3;
 }
@@ -61,21 +47,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     padding-top: 2.5px;
     max-width: 700px;
+    padding-bottom: 50px;
 
-}
-
-
-.projectDescription { 
-    float: right;
-    max-width: 400px;
-    list-style: none;
-    position:relative;
-    
-
-}
-.projectDescription li { 
-    list-style: none;
-    
 
 }
 
@@ -84,9 +57,13 @@ a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color:#faefdf;
-    
+    color: black;
 
+}
+
+P { 
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 
@@ -97,7 +74,7 @@ li {
     font-size: 20px; 
     text-align: center;
     border-style:solid;
-    border-color: #faefdf;
+    border-color: #491200;
     border-radius: 5px;
     margin:10px;
 
@@ -111,13 +88,24 @@ li p {
 
 
 .projectList li:hover {
-    background-color:#f2dfce;
+    background-color:#491200;
     
     
 }
 
 .projectList li:hover a{ 
-    color:#222734; 
+    color:#d89456; 
+
+}
+
+
+/*Footer*/ 
+
+.trees { 
+    width: 700px; 
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
 
 }
 
