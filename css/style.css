@@ -2,6 +2,7 @@
 html { 
 
     background-color: #222734;
+    background-color: #d89456;
 }
 
 /*Header*/ 
@@ -28,7 +29,8 @@ html {
     font-size: 50px;
     text-align:center; 
     color: #faefdf;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
     text-transform: uppercase;
 }
 
