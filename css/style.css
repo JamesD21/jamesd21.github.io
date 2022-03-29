@@ -1,11 +1,29 @@
 /*General*/
 html { 
 
-    background-color: #092134;
+    background-color: #222734;
 }
 
 /*Header*/ 
-.logo {
+
+
+.logo { 
+
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.logo img{ 
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-style:solid; 
+}
+
+.title {
 
     font-size: 50px;
     text-align:center; 
@@ -22,7 +40,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto; 
-    max-width: 800px;
+    max-width: 700px;
     padding: 2em 2em 4em;
     color: white;
     
@@ -40,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 .projectList { 
     text-align: left;
     padding-top: 2.5px;
-    max-width: 210px;
+    max-width: 700px;
 
 }
 
@@ -50,10 +68,12 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 400px;
     list-style: none;
     position:relative;
+    
 
 }
 .projectDescription li { 
     list-style: none;
+    
 
 }
 
@@ -63,14 +83,22 @@ a {
     font-weight: bold;
     text-decoration: none;
     color:#faefdf;
+    
+
 }
 
 
 li { 
     padding-top: 20px; 
     padding-bottom: 20px;
-    list-style:decimal;  
+    list-style:none;  
     font-size: 20px; 
+    text-align: center;
+    border-style:solid;
+    border-color: #faefdf;
+    border-radius: 5px;
+    margin:10px;
+
     
 }
 
@@ -81,8 +109,13 @@ li p {
 
 
 .projectList li:hover {
-    background-color:green ;
+    background-color:#f2dfce;
     
     
+}
+
+.projectList li:hover a{ 
+    color:#222734; 
+
 }
 
